@@ -59,13 +59,14 @@
         app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
 
         <TextView
-            tools:text="Title"
+            android:id="@+id/titlee"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            tools:textColor="@android:color/white"
             android:textAppearance="?android:textAppearanceLarge"
-            android:textColor="@android:color/white" />
+            android:textColor="@android:color/white"
+            tools:text="Title"
+            tools:textColor="@android:color/white" />
 
         <View
             android:layout_width="match_parent"
@@ -80,6 +81,7 @@
             android:padding="16dp">
 
             <TextView
+                android:id="@+id/explanationn"
                 tools:text="Info about the item presented above"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
